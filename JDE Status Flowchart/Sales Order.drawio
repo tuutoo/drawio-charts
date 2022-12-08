@@ -76,7 +76,7 @@
                 <mxCell id="140" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="138" target="115">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="138" value="Print “Delivery Note”&lt;br&gt;Status: 543" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                <mxCell id="138" value="Print “Shiping Instruction”&lt;br&gt;Status: 543" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
                     <mxGeometry x="204" y="626" width="180" height="70" as="geometry"/>
                 </mxCell>
             </root>
