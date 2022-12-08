@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="NIP8vCB4eId5Prm6ArUl" name="Page-1">
-        <mxGraphModel dx="1170" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1095" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -10,8 +10,8 @@
                 <mxCell id="2" value="Entered&lt;br&gt;Status: 100" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="60" y="90" width="180" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="Work Order Process End" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
-                    <mxGeometry x="324" y="1075" width="180" height="50" as="geometry"/>
+                <mxCell id="42" value="Process End" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="680" width="180" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;OR&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
                     <mxGeometry x="90" y="40" width="120" height="30" as="geometry"/>
@@ -31,17 +31,14 @@
                 <mxCell id="60" value="Print OR&lt;br&gt;Status: 120" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="60" y="310" width="180" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" value="" style="edgeStyle=none;html=1;" parent="1" source="68" target="42" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="68" value="Order Comp - Ready To Purge&lt;br&gt;Status: 99" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-                    <mxGeometry x="324" y="965" width="180" height="70" as="geometry"/>
-                </mxCell>
                 <mxCell id="116" value="" style="edgeStyle=none;html=1;" parent="1" source="113" target="115" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="113" value="Generate PO from OR&lt;br&gt;Status: 130" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="60" y="425" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" style="edgeStyle=none;html=1;" edge="1" parent="1" source="115" target="42">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="115" value="PO Generated from OR&lt;br&gt;Status: 999" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="60" y="535" width="180" height="70" as="geometry"/>
@@ -73,10 +70,13 @@
                 <mxCell id="126" value="PO Receive&lt;br&gt;Status: 380" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="520" y="425" width="180" height="70" as="geometry"/>
                 </mxCell>
+                <mxCell id="130" style="edgeStyle=none;html=1;" edge="1" parent="1" source="127" target="42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="127" value="PO Ended&lt;br&gt;Status: 999" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="520" y="535" width="180" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="128" value="Order Cancelled&lt;br&gt;Status: 980" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
+                <mxCell id="128" value="Order Cancelled&lt;br&gt;Status: 980" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" parent="1" vertex="1">
                     <mxGeometry x="300" y="480" width="180" height="70" as="geometry"/>
                 </mxCell>
             </root>
